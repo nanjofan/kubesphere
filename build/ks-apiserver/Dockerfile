@@ -5,8 +5,8 @@
 # Download dependencies
 FROM alpine:3.11 as base_os_context
 
-ARG TARGETARCH
-ARG TARGETOS
+ARG TARGETARCH=amd64
+ARG TARGETOS=linux
 ARG HELM_VERSION=v3.5.2
 
 ENV OUTDIR=/out

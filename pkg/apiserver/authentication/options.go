@@ -27,6 +27,7 @@ import (
 	"kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider"
 	_ "kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider/aliyunidaas"
 	_ "kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider/cas"
+	_ "kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider/cmict"
 	_ "kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider/github"
 	_ "kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider/ldap"
 	_ "kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider/oidc"
